@@ -45,7 +45,46 @@ Frontend, mobile apps, or other tools can connect easily.
 
 📁 Project Structure
 
-Hash-ZK-Verify/ │ ├── backend/ │   ├── core/ │   │    ├── zk_engine/ │   │    │     ├── circuit_builder.py │   │    │     ├── proof_generator.py │   │    │     ├── verifier.py │   │    │     └── examples/ │   │    │           ├── age_proof.py │   │    │           ├── password_proof.py │   │    │           └── balance_proof.py │   │    └── utils/ │   │          ├── hash_functions.py │   │          ├── field_math.py │   │          └── serialize.py │   │ │   ├── api/ │   │    ├── routers/ │   │    │      ├── proof_routes.py │   │    │      ├── circuit_routes.py │   │    │      └── example_routes.py │   │    └── schemas/ │   │           ├── proof_schema.py │   │           └── circuit_schema.py │   │ │   ├── main.py │   ├── config.py │   └── requirements.txt │ ├── tests/ │   ├── test_circuits.py │   ├── test_proofs.py │   ├── test_examples.py │ └── docs/ ├── overview.md ├── zk_basics.md ├── api_reference.md └── examples.md
+Hash-ZK-Verify/
+│
+├── backend/
+│   ├── core/
+│   │   ├── zk_engine/
+│   │   │   ├── [circuit_builder.py](backend/core/zk_engine/circuit_builder.py)
+│   │   │   ├── [proof_generator.py](backend/core/zk_engine/proof_generator.py)
+│   │   │   ├── [verifier.py](backend/core/zk_engine/verifier.py)
+│   │   │   └── examples/
+│   │   │       ├── [age_proof.py](backend/core/zk_engine/examples/age_proof.py)
+│   │   │       ├── [password_proof.py](backend/core/zk_engine/examples/password_proof.py)
+│   │   │       └── [balance_proof.py](backend/core/zk_engine/examples/balance_proof.py)
+│   │   └── utils/
+│   │       ├── [hash_functions.py](backend/core/utils/hash_functions.py)
+│   │       ├── [field_math.py](backend/core/utils/field_math.py)
+│   │       └── [serialize.py](backend/core/utils/serialize.py)
+│   │
+│   ├── api/
+│   │   ├── routers/
+│   │   │   ├── [proof_routes.py](backend/api/routers/proof_routes.py)
+│   │   │   ├── [circuit_routes.py](backend/api/routers/circuit_routes.py)
+│   │   │   └── [example_routes.py](backend/api/routers/example_routes.py)
+│   │   └── schemas/
+│   │       ├── [proof_schema.py](backend/api/schemas/proof_schema.py)
+│   │       └── [circuit_schema.py](backend/api/schemas/circuit_schema.py)
+│   │
+│   ├── [main.py](backend/main.py)
+│   ├── [config.py](backend/config.py)
+│   └── [requirements.txt](backend/requirements.txt)
+│
+├── tests/
+│   ├── [test_circuits.py](tests/test_circuits.py)
+│   ├── [test_proofs.py](tests/test_proofs.py)
+│   ├── [test_examples.py](tests/test_examples.py)
+│
+└── docs/
+    ├── [overview.md](docs/overview.md)
+    ├── [zk_basics.md](docs/zk_basics.md)
+    ├── [api_reference.md](docs/api_reference.md)
+    └── [examples.md](docs/examples.md)
 
 ---
 
