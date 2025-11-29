@@ -45,9 +45,7 @@ You don’t need deep math to understand ZK, this toolkit teaches it practically
 
 📁 Project Structure
 
-Hash-ZK-Verify/
 
-├── backend/
 
 ---
 
