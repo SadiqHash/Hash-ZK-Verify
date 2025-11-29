@@ -60,30 +60,6 @@ Hash-ZK-Verify/
 │   │       ├── hash_functions.py
 │   │       ├── field_math.py
 │   │       └── serialize.py
-│   │
-│   ├── api/
-│   │   ├── routers/
-│   │   │   ├── proof_routes.py
-│   │   │   ├── circuit_routes.py
-│   │   │   └── example_routes.py
-│   │   └── schemas/
-│   │       ├── proof_schema.py
-│   │       └── circuit_schema.py
-│   │
-│   ├── main.py
-│   ├── config.py
-│   └── requirements.txt
-│
-├── tests/
-│   ├── test_circuits.py
-│   ├── test_proofs.py
-│   ├── test_examples.py
-│
-└── docs/
-    ├── overview.md
-    ├── zk_basics.md
-    ├── api_reference.md
-    └── examples.md
 
 ---
 
