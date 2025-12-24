@@ -1,5 +1,5 @@
 Hash ZK-Verify
-A Visual & Educational Zero-Knowledge Proof (ZKP) Playground
+A visual & educational Zero-Knowledge Proof (ZKP) playground
 
 Hash ZK-Verify is an open-source toolkit designed to help beginners learn, test, and understand Zero-Knowledge Proofs through interactive examples and simple circuit logic.
 
@@ -45,7 +45,32 @@ You don’t need deep math to understand ZK, this toolkit teaches it practically
 
 📁 Project Structure
 
-
+Hash-ZK-Verify/
+├── backend/
+│   ├── core/
+│   │   ├── zk_engine/
+│   │   │   ├── circuit_builder.py
+│   │   │   ├── proof_generator.py
+│   │   │   ├── verifier.py
+│   │   │   └── examples/
+│   │   │       ├── age_proof.py
+│   │   │       ├── password_proof.py
+│   │   │       └── balance_proof.py
+│   │   └── utils/
+│   │       ├── hash_functions.py
+│   │       ├── field_math.py
+│   │       └── serialize.py
+│   │
+│   ├── api/
+│   │   ├── routers/
+│   │   └── schemas/
+│   │
+│   ├── main.py
+│   ├── config.py
+│   └── requirements.txt
+│
+├── tests/
+└── docs/
 
 ---
 
@@ -97,7 +122,7 @@ Future Goals
 
 ---
 
-🤝 Contributing
+🤝 Contributing:
 The project is open and welcomes contributions.
 Developers can add circuits, improve verification flows, or expand documentation.
 
@@ -109,7 +134,7 @@ Free to use, modify, and share.
 
 ---
 
-❤️ Final Note
+❤️ Final Note:
 This project is part of a bigger mission:
 bringing advanced cryptography to the everyday developer and preparing Africa for Web4.
 Let’s build something legendary.
