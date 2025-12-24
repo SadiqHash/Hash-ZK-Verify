@@ -1,5 +1,5 @@
 Hash ZK-Verify
-A visual & educational Zero-Knowledge Proof (ZKP) playground
+a visual & educational Zero-Knowledge Proof playground.
 
 Hash ZK-Verify is an open-source toolkit designed to help beginners learn, test, and understand Zero-Knowledge Proofs through interactive examples and simple circuit logic.
 
