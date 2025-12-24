@@ -75,6 +75,11 @@ Schemas
 - [proof_schema.py](backend/api/schemas/proof_schema.py)
 - [circuit_schema.py](backend/api/schemas/circuit_schema.py)
 
+Application Entry
+- [main.py](backend/main.py)
+- [confiq.py](backend/confiq.py)
+- [requirements.txt](backend/requirements.txt)
+
 Docs
 - [overview.md](docs/overview.md)
 - [zk_basics.md](docs/zk_basics.md)
@@ -83,27 +88,7 @@ Docs
 
 ---
 
-API Endpoints (Preview)
-
-POST/proof/generate
-
-Generate Proof
-
-POST/proof/verify
-
-Verify Proof
-
-POST/circuit/build
-
-Build Circuit
-
-GET/examples/list
-
-Get Example Circuits
-
----
-
-🚀 Future Goals
+Future Goals
 - Drag-and-drop circuit visualizer (frontend)
 - Live ZK tutorials
 - Prebuilt templates
