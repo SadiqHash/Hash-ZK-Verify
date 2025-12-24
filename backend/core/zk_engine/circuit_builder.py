@@ -25,6 +25,21 @@ class ZKCircuit:
         self.private_inputs: Dict[str, Any] = {}
         self.constraints: List[str] = []
 
+    def verify(self) -> bool:
+        """
+        Temporary verification stub.
+
+        For now:
+        - Checks that constraints exist
+        - Always returns True
+
+        Later:
+        - This will run real ZK proof verification
+        """
+        if not self.constraints:
+            return False
+        return True
+
     def add_public_input(self, key: str, value: Any) -> None:
         self.public_inputs[key] = value
 
