@@ -43,39 +43,6 @@ You don’t need deep math to understand ZK, this toolkit teaches it practically
 
 ---
 
-📁 Project Structure
-
-Hash-ZK-Verify/
-├── backend/
-│   ├── core/
-│   │   ├── zk_engine/
-│   │   │   ├── circuit_builder.py
-│   │   │   ├── proof_generator.py
-│   │   │   ├── verifier.py
-│   │   │   └── examples/
-│   │   │       ├── age_proof.py
-│   │   │       ├── password_proof.py
-│   │   │       └── balance_proof.py
-│   │   └── utils/
-│   │       ├── hash_functions.py
-│   │       ├── field_math.py
-│   │       └── serialize.py
-│   │
-│   ├── api/
-│   │   ├── routers/
-│   │   └── schemas/
-│   │
-│   ├── main.py
-│   ├── config.py
-│   └── requirements.txt
-│
-├── tests/
-└── docs/
-
----
-
-Clickable File Navigation
-
 Backend Core
 - [circuit_builder.py](backend/core/zk_engine/circuit_builder.py)
 - [proof_generator.py](backend/core/zk_engine/proof_generator.py)
